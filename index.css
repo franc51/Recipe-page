@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Young serif";
+}
+
+.recipe {
+    border-radius: 2rem;
+    background-color: aliceblue;
+    padding: 3rem;
+    margin: 3rem 40rem;
+    background-color: hsl(0, 0%, 100%);
+    height: fit-content;
+}
+.recipe__image {
+    height: 22rem;
+    border-radius: 1rem;
+}
+.recipe__title{
+    font-weight: 300;
+    margin-top: 2rem;
+    font-size: 3rem;
+    color: rgb(65, 62, 62);
+}
+.recipe__description {
+    margin-top: 1.5rem;
+    color: rgb(100, 100, 100);
+    font-size: 17px;
+    padding-right: 1rem;
+}
+.recipe__preparation__time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+.recipe__time__title {
+    font-weight: 200;
+    margin-bottom: 1rem;
+    color: hsl(332, 51%, 32%);
+}
+.recipe_time_list {
+    padding: 0 2rem;
+}
+.recipe__list__item {
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    color: rgb(66, 65, 65);
+}
+.recipe__ingredients_title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+    padding-top: 2rem;
+}
+.recipe__ingredients {
+    padding: 1rem;
+}
+.recipe__ingredients__list {
+    padding: 0 2rem;
+}
+.recipe__ingredients__list__item {
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    color: rgb(80, 80, 80);
+    font-weight: 400;
+    font-size: 1rem;
+}
+.recipe__instructions {
+    font-size: 2rem;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.recipe__instructions_list {
+    padding: 0.5rem 2rem;
+}
+.recipe__instruction__item {
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    color: rgb(110, 110, 110);
+    font-weight: 400;
+    font-size: 1rem;
+}
+.recipe_nutrition {
+    font-size: 2rem;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
