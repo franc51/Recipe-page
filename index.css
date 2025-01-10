@@ -97,3 +97,24 @@ body {
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
+.recipe__nutrition_description {
+    color: rgb(110, 110, 110);
+    font-weight: 400;
+    font-size: 1rem;
+}
+.nutrition__table {
+    border-bottom: 1px solid rgb(224, 219, 219);
+    padding-top: 1.6rem;
+    padding-bottom: 0.5rem;
+    color: rgb(97, 97, 97);
+    width: 25rem;
+    text-align: start;
+    padding-left: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+   
+}
+.brown {
+    color: hsl(14, 45%, 36%) ;
+    font-weight: 600;
+}
